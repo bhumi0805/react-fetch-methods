@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Contexts } from "./store";
 import { useContext } from "react";
+import Products from "./Product";
 
 function Create(){
    
@@ -30,6 +31,7 @@ function Create(){
                     </select>
                   <input type="submit" ></input>
               </form>
+              <Products></Products>
         </div>
       )
 }
